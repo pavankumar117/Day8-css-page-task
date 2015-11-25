@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title>Quote Details</title>
+		<link rel="stylesheet" type="text/css" href="hyphen.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+		<style>
+			#layout1 {
+				width : 300;
+				margin-left : 220;
+			}
+			
+			#layout2 {
+				float : right;
+				margin-right : 100;
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+			<div class="grid">
+				<div class="grid__item grid__item--12">
+					<p>Quote details</p>
+				</div>
+			</div>
+		</center>
+		
+		<div class="grid">
+			<div class="grid__item grid__item--6">
+				<label id = 'layout1' class="label">Quote Name:</label>
+				<input id = 'layout1' type="text" class="input" placeholder="Enter Quote Name"/>
+			</div>
+			<div class="grid__item grid__item--6">
+				<label id = 'layout1' class="label">Customer Name*:</label>
+				<input id = 'layout1' type="text" class="input" placeholder="Enter Customer Name"/>
+			</div>
+		</div>
+		
+		<div class="grid">
+			<div class="grid__item grid__item--6">
+				<label id = 'layout1' class="label">DeliverGoods To*:</label>
+				<textarea id = 'layout1' class="input" placeholder="Deliver Goods TO" rows = '4'/></textarea>
+			</div>
+			<div class="grid__item grid__item--6">
+				<label id = 'layout1' class="label">Billing To*:</label>
+				<textarea id = 'layout1' class="input" placeholder="Billing Goods TO" rows = '4'/></textarea>
+			</div>
+		</div>
+		
+		
+		<div class="grid">
+			<div class="grid__item grid__item--6">
+				<label id = 'layout1' class="label">Address verified:</label>
+				<i id = 'layout2' class="fa fa-toggle-on"></i>
+			</div>
+			<div class="grid__item grid__item--6">
+				<label id = 'layout1' class="label">Order Type:</label>
+				<select class="input" id = 'layout1'>
+					<option value="1">Order Type</option>
+					<option value="2">Amsterdam</option>
+					<option value="3">United States</option>
+				</select>
+			</div>
+		</div>
+		
+		<center>
+			<div class="grid">
+				<div class="grid__item grid__item--12">
+				<a href = 'addition.html' target = 'body'>
+					 <button class="btn btn--success btn--round">Next</button>
+				</a>
+				</div>
+			</div>
+		</center>
+		
+	</body>
